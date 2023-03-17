@@ -103,7 +103,8 @@ const RightOtp = () => {
               value={otp}
               onChange={setOtp}
               autoFocus
-              inputStyles={mystyle}
+              // inputStyles={mystyle}
+              className={'otp-input'}
               OTPLength={6}
               otpType="number"
              
